@@ -2,6 +2,7 @@ import Navbar from "../navbar/Navbar";
 import mern from '../../assets/mern.jpg'
 import CourseService from "../courseService/CourseService";
 import Sylabus from "../sylabus/Sylabus";
+import Teachers from "../teachers/Teachers";
 // HeroSection component for better modularity
 const HeroSection = () => (
   <section className="hero-section text-white position-relative" style={{zIndex:-1, background: `url(${mern}) no-repeat center center`, backgroundSize: 'cover' }}>
@@ -62,6 +63,7 @@ export default function Course() {
       </header>
       <CourseService/>
       <Sylabus/>
+      <Teachers/>
     </>
   );
 }
