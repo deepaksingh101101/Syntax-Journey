@@ -1,0 +1,28 @@
+.strip::-webkit-scrollbar {
+    display: none;
+  }
+
+#body .strip a{
+    list-style: none;
+    text-decoration: none;
+}
+
+#body .stripeCourse:hover{
+background: #0B8AB6;
+}
+
+#body .heroImage {
+    min-height: 86vh;               /* Ensure the image takes at least 86% of the viewport height */
+    height: 100%;                   /* Make sure the image takes 100% height of its container */
+    width: 100%;                    /* Make sure the image takes 100% width of its container */
+    object-fit: cover; 
+filter: brightness(0.4);
+                 /* Ensures the image covers the entire container */
+      /* Apply webkit blur filter for compatibility */
+                    /* Remove default padding */
+                       /* Align the image to the left */
+}
+
+#body .borderRadius{
+    border-radius: 20px;
+}
