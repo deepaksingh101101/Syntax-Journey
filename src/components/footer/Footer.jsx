@@ -135,7 +135,7 @@ export default function Footer() {
     </div>
     <div className="footer-bottom footer-border-top light py-1">
         <div className="container text-center">
-            <p className="m-0 fw-bold">© 2024 copyright <a href="#" className=" fw-bold text-decoration-none mainColor" style={{color:"#0B8AB6"}}> Syntax Journey</a></p>
+            <p className="m-0 fw-bold text-dark">© 2024 copyright <a href="#" className=" fw-bold text-decoration-none mainColor ms-1" style={{color:"#0B8AB6"}}> Syntax Journey</a></p>
         </div>
     </div>
 </footer>

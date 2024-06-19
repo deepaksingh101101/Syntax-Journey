@@ -3,6 +3,9 @@ import mern from '../../assets/mern.jpg'
 import CourseService from "../courseService/CourseService";
 import Sylabus from "../sylabus/Sylabus";
 import Teachers from "../teachers/Teachers";
+import CourseReview from "../courseReview/CourseReview";
+import Card from "../card/Card";
+import Footer from "../footer/Footer";
 // HeroSection component for better modularity
 const HeroSection = () => (
   <section className="hero-section text-white position-relative" style={{zIndex:-1, background: `url(${mern}) no-repeat center center`, backgroundSize: 'cover' }}>
@@ -64,6 +67,14 @@ export default function Course() {
       <CourseService/>
       <Sylabus/>
       <Teachers/>
+      <CourseReview/>
+      <div className="d-flex py-5 flex-column " style={{background:"#1D2124"}}>
+      <div className="section-head  col-sm-12 mb-3">
+            <h4  ><span className='text-white'>Explore More</span> Internsship's</h4>
+          </div>
+      <Card/>
+      </div>
+      <Footer/>
     </>
   );
 }
